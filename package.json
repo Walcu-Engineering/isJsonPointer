@@ -1,5 +1,5 @@
 {
-  "name": "isjsonpointer",
+  "name": "@walcu-engineering/isjsonpointer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
