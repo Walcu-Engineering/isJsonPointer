@@ -10,6 +10,9 @@ describe('isJsonPointer', () => {
   test('/contacts/0/phones/0 is a valid json pointer', () => {
     expect(isJsonPointer('/contacts/0/phones/0')).toBe(true);
   });
+  test('/with spaces is a valid json pointer', () => {
+    expect(isJsonPointer('/with spaces')).toBe(true);
+  });
   test('Paths with "-" to indicate mappings', () => {
     expect(isJsonPointer('/contacts/-/phones/0')).toBe(true);
   });
