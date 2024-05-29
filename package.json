@@ -1,6 +1,6 @@
 {
   "name": "@walcu-engineering/isjsonpointer",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Walcu-Engineering/isJsonPointer.git"
   },
-  "author": "Jose García Lozano",
+  "author": "Walcu Engineering Team",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Walcu-Engineering/isJsonPointer/issues"
